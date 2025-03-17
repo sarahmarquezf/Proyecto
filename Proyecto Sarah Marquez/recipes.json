@@ -1,0 +1,923 @@
+[
+    {
+        "id": 1,
+        "nombre": "Titulación Ácido-Base HCl-NaOH",
+        "objetivo": "Determinar la concentración de HCl usando NaOH estándar",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 2,
+                "cantidad_necesaria": 50,
+                "unidad_medida": "mL"
+            },
+            {
+                "reactivo_id": 3,
+                "cantidad_necesaria": 2,
+                "unidad_medida": "g"
+            },
+            {
+                "reactivo_id": 5,
+                "cantidad_necesaria": 2,
+                "unidad_medida": "mL"
+            }
+        ],
+        "procedimiento": [
+            "Preparar el matraz con HCl",
+            "Agregar Fenolftaleína",
+            "Triturar y disolver NaOH si procede",
+            "Titular hasta cambio de color"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "pH_final",
+                "formula": "pH = -log[H+]",
+                "minimo": 6.8,
+                "maximo": 7.5
+            },
+            {
+                "nombre": "rendimiento",
+                "formula": "rend = (moles_HCl_neut / moles_HCl_teorico) * 100",
+                "minimo": 90,
+                "maximo": 100
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "nombre": "Destilación Simple Etanol-Agua",
+        "objetivo": "Separar el etanol de una mezcla hidroalcohólica",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 1,
+                "cantidad_necesaria": 200,
+                "unidad_medida": "mL"
+            },
+            {
+                "reactivo_id": 4,
+                "cantidad_necesaria": 500,
+                "unidad_medida": "mL"
+            }
+        ],
+        "procedimiento": [
+            "Montar el equipo de destilación",
+            "Calentar hasta 78°C",
+            "Recoger el destilado",
+            "Estimar concentración de etanol"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "porcentaje_etanol",
+                "formula": "porc = (vol_etanol_destilado / vol_inicial) * 100",
+                "minimo": 80,
+                "maximo": 95
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "nombre": "Prueba de Fehling para Azúcares Reductores",
+        "objetivo": "Identificar la presencia de azúcares reductores",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 17,
+                "cantidad_necesaria": 5,
+                "unidad_medida": "g"
+            },
+            {
+                "reactivo_id": 39,
+                "cantidad_necesaria": 10,
+                "unidad_medida": "mL"
+            }
+        ],
+        "procedimiento": [
+            "Disolver la muestra de glucosa en agua destilada",
+            "Agregar reactivos A y B de Fehling",
+            "Calentar la solución",
+            "Observar precipitado rojo ladrillo"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "color_final",
+                "formula": "Se observa visualmente el color",
+                "minimo": 1,
+                "maximo": 10
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "nombre": "Titulación Redox con KMnO4",
+        "objetivo": "Cuantificar hierro (II) en una muestra",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 10,
+                "cantidad_necesaria": 2,
+                "unidad_medida": "g"
+            },
+            {
+                "reactivo_id": 29,
+                "cantidad_necesaria": 1,
+                "unidad_medida": "g"
+            }
+        ],
+        "procedimiento": [
+            "Disolver FeSO4 en medio ácido",
+            "Agregar KMnO4 gota a gota",
+            "Observar cambio de color a rosa persistente",
+            "Calcular concentración de Fe(II)"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "normalidad_permanganato",
+                "formula": "N = eq_soluto / L_disolucion",
+                "minimo": 0.05,
+                "maximo": 0.2
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "nombre": "Reacción de Precipitación con AgNO3",
+        "objetivo": "Determinar cloruros en una muestra salina",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 7,
+                "cantidad_necesaria": 1,
+                "unidad_medida": "g"
+            },
+            {
+                "reactivo_id": 8,
+                "cantidad_necesaria": 2,
+                "unidad_medida": "g"
+            }
+        ],
+        "procedimiento": [
+            "Disolver la muestra en agua",
+            "Agregar gotas de AgNO3",
+            "Observar precipitado blanco (AgCl)",
+            "Filtrar y pesar el sólido"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "masa_precipitado",
+                "formula": "m = peso_final - peso_filtro",
+                "minimo": 0.1,
+                "maximo": 2.0
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "nombre": "Neutralización Ácido Acético - NaOH",
+        "objetivo": "Calcular la concentración real de vinagre (ácido acético)",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 12,
+                "cantidad_necesaria": 50,
+                "unidad_medida": "mL"
+            },
+            {
+                "reactivo_id": 3,
+                "cantidad_necesaria": 2,
+                "unidad_medida": "g"
+            }
+        ],
+        "procedimiento": [
+            "Medir volumen de ácido acético",
+            "Agregar NaOH gradualmente",
+            "Detectar punto final con fenolftaleína",
+            "Hallar porcentaje de acético en la muestra"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "acidez_porcentual",
+                "formula": "%acidez = (moles_NaOH / volumen_muestra) * 100",
+                "minimo": 3,
+                "maximo": 6
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "nombre": "Determinación de Dureza del Agua (CaCO3)",
+        "objetivo": "Medir la dureza usando EDTA y ver contenido de calcio",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 14,
+                "cantidad_necesaria": 3,
+                "unidad_medida": "g"
+            },
+            {
+                "reactivo_id": 1,
+                "cantidad_necesaria": 200,
+                "unidad_medida": "mL"
+            }
+        ],
+        "procedimiento": [
+            "Tomar muestra de agua",
+            "Agregar indicador Erio T y EDTA",
+            "Observar viraje de color",
+            "Calcular ppm de CaCO3"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "dureza",
+                "formula": "ppm_CaCO3 = (moles_Ca * 100) / volumen_muestra",
+                "minimo": 0,
+                "maximo": 200
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "nombre": "Preparación de Solución Buffer Bicarbonato",
+        "objetivo": "Crear un buffer de bicarbonato y medir pH final",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 13,
+                "cantidad_necesaria": 4,
+                "unidad_medida": "g"
+            },
+            {
+                "reactivo_id": 2,
+                "cantidad_necesaria": 10,
+                "unidad_medida": "mL"
+            }
+        ],
+        "procedimiento": [
+            "Disolver NaHCO3 en agua",
+            "Agregar HCl gradualmente",
+            "Ajustar pH entre 7 y 7.5",
+            "Completar con agua destilada hasta volumen"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "pH_final",
+                "formula": "pH = pKa + log([base]/[ácido])",
+                "minimo": 7,
+                "maximo": 7.5
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "nombre": "Reacción de Saponificación",
+        "objetivo": "Producir jabón a partir de grasa y NaOH",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 3,
+                "cantidad_necesaria": 10,
+                "unidad_medida": "g"
+            },
+            {
+                "reactivo_id": 16,
+                "cantidad_necesaria": 5,
+                "unidad_medida": "g"
+            }
+        ],
+        "procedimiento": [
+            "Calentar grasa con NaOH",
+            "Mantener agitación",
+            "Separar el jabón formado",
+            "Lavar y secar el producto"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "rendimiento",
+                "formula": "rend = (masa_jabon_obtenida / masa_teorica) * 100",
+                "minimo": 70,
+                "maximo": 100
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "nombre": "Determinación de Cloruro de Sodio en Alimentos",
+        "objetivo": "Cuantificar NaCl mediante titulación con AgNO3",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 8,
+                "cantidad_necesaria": 5,
+                "unidad_medida": "g"
+            },
+            {
+                "reactivo_id": 7,
+                "cantidad_necesaria": 1,
+                "unidad_medida": "g"
+            }
+        ],
+        "procedimiento": [
+            "Disolver muestra en agua destilada",
+            "Titular con AgNO3",
+            "Registrar punto final de precipitación",
+            "Calcular contenido de sal"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "porcentaje_salinidad",
+                "formula": "%sal = (moles_AgNO3 / masa_muestra) * 100",
+                "minimo": 0.5,
+                "maximo": 5.0
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "nombre": "Oxidación de Glucosa con Benedict",
+        "objetivo": "Detectar azúcares reductores en muestras biológicas",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 17,
+                "cantidad_necesaria": 2,
+                "unidad_medida": "g"
+            },
+            {
+                "reactivo_id": 39,
+                "cantidad_necesaria": 5,
+                "unidad_medida": "mL"
+            }
+        ],
+        "procedimiento": [
+            "Mezclar solución de glucosa con reactivo Benedict",
+            "Calentar suavemente",
+            "Observar el cambio de color",
+            "Formación de óxido de cobre"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "intensidad_color",
+                "formula": "Escala visual 1 a 5",
+                "minimo": 1,
+                "maximo": 5
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "nombre": "Ensayo de pH del Suelo",
+        "objetivo": "Medir el pH de una muestra de suelo",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 1,
+                "cantidad_necesaria": 100,
+                "unidad_medida": "mL"
+            },
+            {
+                "reactivo_id": 5,
+                "cantidad_necesaria": 5,
+                "unidad_medida": "mL"
+            }
+        ],
+        "procedimiento": [
+            "Suspender suelo en agua destilada",
+            "Agregar indicador fenolftaleína si conviene",
+            "Medir pH con potenciómetro",
+            "Comparar con rangos agronómicos"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "pH_suelo",
+                "formula": "pH = -log[H+]",
+                "minimo": 4,
+                "maximo": 8.5
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "nombre": "Cromatografía de Papel para Pigmentos",
+        "objetivo": "Separar pigmentos vegetales",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 18,
+                "cantidad_necesaria": 20,
+                "unidad_medida": "mL"
+            },
+            {
+                "reactivo_id": 1,
+                "cantidad_necesaria": 50,
+                "unidad_medida": "mL"
+            }
+        ],
+        "procedimiento": [
+            "Preparar extracto de hojas",
+            "Aplicar en papel cromatográfico",
+            "Desarrollar con solvente (éter)",
+            "Observar banda de pigmentos"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "Rf_pigmento",
+                "formula": "Rf = (distancia_soluto / distancia_frente)",
+                "minimo": 0.2,
+                "maximo": 0.9
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "nombre": "Prueba de Llama para Sales",
+        "objetivo": "Identificar metales alcalinos por color de llama",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 9,
+                "cantidad_necesaria": 1,
+                "unidad_medida": "g"
+            },
+            {
+                "reactivo_id": 35,
+                "cantidad_necesaria": 1,
+                "unidad_medida": "g"
+            }
+        ],
+        "procedimiento": [
+            "Tomar una pequeña cantidad de sal",
+            "Colocar en la flama del mechero",
+            "Observar color de la llama",
+            "Comparar con tabla de emisión"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "color_llama",
+                "formula": "Escala cualitativa (ej. violeta, amarillo)",
+                "minimo": 1,
+                "maximo": 5
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "nombre": "Volatilidad de Acetona",
+        "objetivo": "Medir la velocidad de evaporación de acetona",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 19,
+                "cantidad_necesaria": 50,
+                "unidad_medida": "mL"
+            }
+        ],
+        "procedimiento": [
+            "Colocar acetona en vaso de precipitados",
+            "Medir masa inicial",
+            "Esperar 10 minutos",
+            "Medir masa final y calcular evaporado"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "tasa_evaporacion",
+                "formula": "g_evaporados / tiempo",
+                "minimo": 0,
+                "maximo": 5
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "nombre": "Extracción Líquido-Líquido Isopropanol-Agua",
+        "objetivo": "Separar compuestos orgánicos de fase acuosa",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 20,
+                "cantidad_necesaria": 100,
+                "unidad_medida": "mL"
+            },
+            {
+                "reactivo_id": 1,
+                "cantidad_necesaria": 100,
+                "unidad_medida": "mL"
+            }
+        ],
+        "procedimiento": [
+            "Mezclar las dos fases en embudo de separación",
+            "Agitar y dejar decantar",
+            "Recoger fase orgánica e identificar compuestos",
+            "Repetir si es necesario"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "porcentaje_extraccion",
+                "formula": "(masa_compuesto_extraido / masa_inicial) * 100",
+                "minimo": 50,
+                "maximo": 100
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "nombre": "Titulación de Amoníaco con HCl",
+        "objetivo": "Encontrar concentración de NH3 en solución al 10%",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 22,
+                "cantidad_necesaria": 50,
+                "unidad_medida": "mL"
+            },
+            {
+                "reactivo_id": 2,
+                "cantidad_necesaria": 30,
+                "unidad_medida": "mL"
+            }
+        ],
+        "procedimiento": [
+            "Tomar alícuota de NH3",
+            "Titular con HCl 0.1N",
+            "Registrar punto de equivalencia",
+            "Calcular % real de amoníaco"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "concentracion_amoniaco",
+                "formula": "M = (moles_HCl / volumen_NH3)",
+                "minimo": 8,
+                "maximo": 10
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "nombre": "Decomposición de Agua Oxigenada",
+        "objetivo": "Medir la velocidad de liberación de O2",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 23,
+                "cantidad_necesaria": 50,
+                "unidad_medida": "mL"
+            }
+        ],
+        "procedimiento": [
+            "Colocar H2O2 en un matraz",
+            "Agregar catalizador (MnO2 si aplica)",
+            "Recoger O2 en probeta invertida",
+            "Medir volumen de gas liberado"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "volumen_O2",
+                "formula": "V (mL) medidos en probeta",
+                "minimo": 0,
+                "maximo": 500
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "nombre": "Precipitación de CaCl2 con Na2CO3",
+        "objetivo": "Formar CaCO3 a partir de CaCl2",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 24,
+                "cantidad_necesaria": 5,
+                "unidad_medida": "g"
+            },
+            {
+                "reactivo_id": 15,
+                "cantidad_necesaria": 5,
+                "unidad_medida": "g"
+            }
+        ],
+        "procedimiento": [
+            "Disolver CaCl2 en agua",
+            "Agregar Na2CO3 lentamente",
+            "Formar precipitado CaCO3",
+            "Filtrar y secar el sólido"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "masa_CaCO3",
+                "formula": "m = peso_final - peso_filtro",
+                "minimo": 0,
+                "maximo": 5
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "nombre": "Medición de pH Buffer Fosfato",
+        "objetivo": "Preparar y medir un buffer fosfato pH ~7",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 25,
+                "cantidad_necesaria": 20,
+                "unidad_medida": "mL"
+            },
+            {
+                "reactivo_id": 2,
+                "cantidad_necesaria": 10,
+                "unidad_medida": "mL"
+            }
+        ],
+        "procedimiento": [
+            "Disolver KH2PO4 y K2HPO4 en agua",
+            "Ajustar pH con KOH o HCl",
+            "Verificar pH con potenciómetro",
+            "Completar volumen"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "pH_buffer",
+                "formula": "pH = pKa + log([base]/[ácido])",
+                "minimo": 6.8,
+                "maximo": 7.2
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "nombre": "Solubilidad de Ca(OH)2 en Agua",
+        "objetivo": "Determinar la constante de solubilidad (Ksp)",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 37,
+                "cantidad_necesaria": 5,
+                "unidad_medida": "g"
+            },
+            {
+                "reactivo_id": 1,
+                "cantidad_necesaria": 250,
+                "unidad_medida": "mL"
+            }
+        ],
+        "procedimiento": [
+            "Preparar suspensión saturada de Ca(OH)2",
+            "Filtrar y titular con HCl",
+            "Determinar [OH-]",
+            "Calcular Ksp"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "Ksp",
+                "formula": "Ksp = [Ca2+]*[OH-]^2",
+                "minimo": 1e-06,
+                "maximo": 0.001
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "nombre": "Determinación de Proteínas por Precipitación (Sulfato de Amonio)",
+        "objetivo": "Precipitar proteínas usando (NH4)2SO4",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 48,
+                "cantidad_necesaria": 10,
+                "unidad_medida": "g"
+            }
+        ],
+        "procedimiento": [
+            "Agregar gradualmente sulfato de amonio",
+            "Mantener agitación constante",
+            "Separar precipitado de proteína",
+            "Medir concentración proteica"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "rendimiento_proteina",
+                "formula": "(masa_proteina_obtenida / masa_inicial) * 100",
+                "minimo": 50,
+                "maximo": 100
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "nombre": "Prueba de Yodo para Almidón",
+        "objetivo": "Confirmar la presencia de almidón en muestras",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 35,
+                "cantidad_necesaria": 3,
+                "unidad_medida": "g"
+            },
+            {
+                "reactivo_id": 1,
+                "cantidad_necesaria": 100,
+                "unidad_medida": "mL"
+            }
+        ],
+        "procedimiento": [
+            "Disolver KI en agua",
+            "Agregar muestra de almidón",
+            "Observar color azul oscuro",
+            "Comparar intensidad color"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "intensidad_color",
+                "formula": "Escala visual 1 a 5",
+                "minimo": 1,
+                "maximo": 5
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "nombre": "Prueba de Sólidos Totales Disueltos (TDS)",
+        "objetivo": "Cuantificar la cantidad de sólidos en una muestra de agua",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 1,
+                "cantidad_necesaria": 100,
+                "unidad_medida": "mL"
+            }
+        ],
+        "procedimiento": [
+            "Filtrar muestra de agua",
+            "Evaporar en cápsula de porcelana",
+            "Pesar residuo seco",
+            "Calcular mg/L"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "TDS",
+                "formula": "mg/L = (masa_residuo / volumen_agua) * 1000",
+                "minimo": 0,
+                "maximo": 2000
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "nombre": "Determinación de Sulfatos con BaCl2",
+        "objetivo": "Cuantificar sulfatos en agua usando BaCl2",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 34,
+                "cantidad_necesaria": 2,
+                "unidad_medida": "g"
+            },
+            {
+                "reactivo_id": 1,
+                "cantidad_necesaria": 200,
+                "unidad_medida": "mL"
+            }
+        ],
+        "procedimiento": [
+            "Tomar muestra de agua",
+            "Agregar BaCl2 y observar precipitado BaSO4",
+            "Filtrar, secar y pesar",
+            "Calcular contenido de sulfatos"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "ppm_sulfato",
+                "formula": "ppm = (masa_BaSO4 / volumen_muestra) * factor",
+                "minimo": 0,
+                "maximo": 500
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "nombre": "Neutralización de HNO3 con Na2CO3",
+        "objetivo": "Valorar una solución de ácido nítrico con carbonato de sodio",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 21,
+                "cantidad_necesaria": 50,
+                "unidad_medida": "mL"
+            },
+            {
+                "reactivo_id": 15,
+                "cantidad_necesaria": 5,
+                "unidad_medida": "g"
+            }
+        ],
+        "procedimiento": [
+            "Disolver Na2CO3 en agua",
+            "Titular con HNO3 0.5N",
+            "Observar liberación de CO2",
+            "Registrar volumen consumido"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "acidez_equivalente",
+                "formula": "N_HNO3 = eq_HNO3 / volumen",
+                "minimo": 0.3,
+                "maximo": 0.6
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "nombre": "Determinación de Acidez en Leche",
+        "objetivo": "Medir el % de ácido láctico en la leche",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 3,
+                "cantidad_necesaria": 2,
+                "unidad_medida": "g"
+            },
+            {
+                "reactivo_id": 5,
+                "cantidad_necesaria": 2,
+                "unidad_medida": "mL"
+            }
+        ],
+        "procedimiento": [
+            "Tomar alícuota de leche",
+            "Titular con NaOH 0.1N hasta cambio de color",
+            "Calcular % ácido láctico",
+            "Comparar con valores típicos"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "acidez_lactica",
+                "formula": "%ac = (mL_NaOH * N_NaOH * 0.009) / volumen_leche * 100",
+                "minimo": 0.1,
+                "maximo": 0.2
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "nombre": "Ensayo de Fermentación Alcohólica",
+        "objetivo": "Observar producción de CO2 por acción de levaduras",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 16,
+                "cantidad_necesaria": 20,
+                "unidad_medida": "g"
+            },
+            {
+                "reactivo_id": 42,
+                "cantidad_necesaria": 10,
+                "unidad_medida": "mL"
+            }
+        ],
+        "procedimiento": [
+            "Mezclar azúcar con agua y levaduras",
+            "Sellar con trampa de aire",
+            "Medir CO2 liberado",
+            "Estimar rendimiento en etanol"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "CO2_liberado",
+                "formula": "vol_CO2 = lectura_probeta",
+                "minimo": 0,
+                "maximo": 500
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "nombre": "Ensayo de Ion Complejo con FeCl3",
+        "objetivo": "Formar complejo de hierro con fenoles",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 30,
+                "cantidad_necesaria": 1,
+                "unidad_medida": "g"
+            },
+            {
+                "reactivo_id": 5,
+                "cantidad_necesaria": 3,
+                "unidad_medida": "mL"
+            }
+        ],
+        "procedimiento": [
+            "Disolver fenol en agua",
+            "Agregar FeCl3 gota a gota",
+            "Observar complejo de color violeta",
+            "Determinar concentración de fenoles"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "absorbancia",
+                "formula": "A = log(I0 / I)",
+                "minimo": 0,
+                "maximo": 2
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "nombre": "Estandarización de NaOH con Biftalato de Potasio",
+        "objetivo": "Calcular concentración real de NaOH",
+        "reactivos_utilizados": [
+            {
+                "reactivo_id": 3,
+                "cantidad_necesaria": 5,
+                "unidad_medida": "g"
+            },
+            {
+                "reactivo_id": 1,
+                "cantidad_necesaria": 100,
+                "unidad_medida": "mL"
+            }
+        ],
+        "procedimiento": [
+            "Pesar biftalato (estándar primario)",
+            "Disolver en agua y titular con NaOH",
+            "Usar fenolftaleína como indicador",
+            "Calcular molaridad de NaOH"
+        ],
+        "valores_a_medir": [
+            {
+                "nombre": "molaridad_NaOH",
+                "formula": "M = (moles_biftalato / volumen_NaOH)",
+                "minimo": 0.05,
+                "maximo": 1
+            }
+        ]
+    }
+]

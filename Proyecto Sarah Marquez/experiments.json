@@ -1,0 +1,304 @@
+[
+    {
+        "id": 1,
+        "receta_id": 1,
+        "personas_responsables": [
+            "Carlos Jim\u00e9nez",
+            "Ana Morales"
+        ],
+        "fecha": "2024-05-01",
+        "costo_asociado": 2.5,
+        "resultado": "pH final: 7.0, rendimiento: 92%. Dentro de par\u00e1metros."
+    },
+    {
+        "id": 2,
+        "receta_id": 1,
+        "personas_responsables": [
+            "Marta P\u00e9rez"
+        ],
+        "fecha": "2024-05-10",
+        "costo_asociado": 2.6,
+        "resultado": "pH final: 7.6, fuera de rango. Exceso de NaOH."
+    },
+    {
+        "id": 3,
+        "receta_id": 2,
+        "personas_responsables": [
+            "Luis Contreras"
+        ],
+        "fecha": "2024-06-15",
+        "costo_asociado": 5.0,
+        "resultado": "Porcentaje etanol: 85%. Destilaci\u00f3n satisfactoria."
+    },
+    {
+        "id": 4,
+        "receta_id": 3,
+        "personas_responsables": [
+            "Sof\u00eda Delgado",
+            "Pablo Rossi"
+        ],
+        "fecha": "2024-06-20",
+        "costo_asociado": 1.5,
+        "resultado": "Cambio color rojo ladrillo. Az\u00facar reductor presente."
+    },
+    {
+        "id": 5,
+        "receta_id": 4,
+        "personas_responsables": [
+            "Jos\u00e9 Figueroa"
+        ],
+        "fecha": "2024-07-01",
+        "costo_asociado": 2.8,
+        "resultado": "Normalidad KMnO4 = 0.15. Titulaci\u00f3n exitosa."
+    },
+    {
+        "id": 6,
+        "receta_id": 5,
+        "personas_responsables": [
+            "Luc\u00eda G\u00f3mez"
+        ],
+        "fecha": "2024-07-05",
+        "costo_asociado": 3.0,
+        "resultado": "Masa de precipitado = 0.8 g. Detecci\u00f3n de cloruros."
+    },
+    {
+        "id": 7,
+        "receta_id": 6,
+        "personas_responsables": [
+            "Andr\u00e9s Mata"
+        ],
+        "fecha": "2024-07-12",
+        "costo_asociado": 2.0,
+        "resultado": "%acidez = 4.5. Dentro de rango del vinagre comercial."
+    },
+    {
+        "id": 8,
+        "receta_id": 7,
+        "personas_responsables": [
+            "Ximena Ruiz"
+        ],
+        "fecha": "2024-07-18",
+        "costo_asociado": 1.8,
+        "resultado": "Dureza del agua = 150 ppm CaCO3."
+    },
+    {
+        "id": 9,
+        "receta_id": 8,
+        "personas_responsables": [
+            "Clara Vel\u00e1squez"
+        ],
+        "fecha": "2024-07-25",
+        "costo_asociado": 1.6,
+        "resultado": "pH final buffer: 7.2. Correcto."
+    },
+    {
+        "id": 10,
+        "receta_id": 9,
+        "personas_responsables": [
+            "Alberto Sierra"
+        ],
+        "fecha": "2024-08-01",
+        "costo_asociado": 3.5,
+        "resultado": "Rendimiento jab\u00f3n: 80%. Aceptable."
+    },
+    {
+        "id": 11,
+        "receta_id": 10,
+        "personas_responsables": [
+            "Gloria Medina"
+        ],
+        "fecha": "2024-08-05",
+        "costo_asociado": 2.7,
+        "resultado": "%sal = 2.1. Dentro de lo esperado."
+    },
+    {
+        "id": 12,
+        "receta_id": 11,
+        "personas_responsables": [
+            "Pedro Gil"
+        ],
+        "fecha": "2024-08-10",
+        "costo_asociado": 2.2,
+        "resultado": "Coloraci\u00f3n intensa (4/5). Az\u00facares reductores confirmados."
+    },
+    {
+        "id": 13,
+        "receta_id": 12,
+        "personas_responsables": [
+            "F\u00e1tima Torres"
+        ],
+        "fecha": "2024-08-15",
+        "costo_asociado": 1.0,
+        "resultado": "pH suelo: 6.2. Ligeramente \u00e1cido."
+    },
+    {
+        "id": 14,
+        "receta_id": 13,
+        "personas_responsables": [
+            "Ricardo Salas"
+        ],
+        "fecha": "2024-08-20",
+        "costo_asociado": 2.4,
+        "resultado": "Rf de pigmento principal: 0.65. Separaci\u00f3n clara."
+    },
+    {
+        "id": 15,
+        "receta_id": 14,
+        "personas_responsables": [
+            "Pablo Vargas"
+        ],
+        "fecha": "2024-08-25",
+        "costo_asociado": 1.2,
+        "resultado": "Color llama = 3 (amarillo intenso). Indica sodio."
+    },
+    {
+        "id": 16,
+        "receta_id": 15,
+        "personas_responsables": [
+            "Carolina Meza"
+        ],
+        "fecha": "2024-08-30",
+        "costo_asociado": 2.1,
+        "resultado": "Tasa de evaporaci\u00f3n = 3 g/10min. Alta volatilidad."
+    },
+    {
+        "id": 17,
+        "receta_id": 16,
+        "personas_responsables": [
+            "Sergio Acosta"
+        ],
+        "fecha": "2024-09-05",
+        "costo_asociado": 2.9,
+        "resultado": "Extracci\u00f3n al 75%. Eficiente."
+    },
+    {
+        "id": 18,
+        "receta_id": 17,
+        "personas_responsables": [
+            "Tatiana Herrera"
+        ],
+        "fecha": "2024-09-10",
+        "costo_asociado": 2.3,
+        "resultado": "Concentraci\u00f3n NH3 ~9%. Correcto."
+    },
+    {
+        "id": 19,
+        "receta_id": 18,
+        "personas_responsables": [
+            "Gustavo Ortega"
+        ],
+        "fecha": "2024-09-15",
+        "costo_asociado": 1.8,
+        "resultado": "Volumen O2 = 250 mL. Reacci\u00f3n moderada."
+    },
+    {
+        "id": 20,
+        "receta_id": 19,
+        "personas_responsables": [
+            "Beatriz Mart\u00edn"
+        ],
+        "fecha": "2024-09-20",
+        "costo_asociado": 1.5,
+        "resultado": "Masa CaCO3 = 3.2 g. Satisfactorio."
+    },
+    {
+        "id": 21,
+        "receta_id": 20,
+        "personas_responsables": [
+            "Miguel Urbina"
+        ],
+        "fecha": "2024-09-25",
+        "costo_asociado": 1.7,
+        "resultado": "pH final del buffer: 7.0. Dentro de rango."
+    },
+    {
+        "id": 22,
+        "receta_id": 21,
+        "personas_responsables": [
+            "Alejandra Quintero"
+        ],
+        "fecha": "2024-09-30",
+        "costo_asociado": 2.2,
+        "resultado": "Ksp = 1.3e-4. Levemente fuera de lo esperado."
+    },
+    {
+        "id": 23,
+        "receta_id": 22,
+        "personas_responsables": [
+            "Ra\u00fal Villanueva"
+        ],
+        "fecha": "2024-10-05",
+        "costo_asociado": 3.2,
+        "resultado": "Rendimiento de prote\u00edna: 60%. Parcial."
+    },
+    {
+        "id": 24,
+        "receta_id": 23,
+        "personas_responsables": [
+            "Isabel Garc\u00eda"
+        ],
+        "fecha": "2024-10-10",
+        "costo_asociado": 1.9,
+        "resultado": "Intensidad color = 3. Almid\u00f3n presente."
+    },
+    {
+        "id": 25,
+        "receta_id": 24,
+        "personas_responsables": [
+            "Daniel Castillo"
+        ],
+        "fecha": "2024-10-15",
+        "costo_asociado": 1.3,
+        "resultado": "TDS = 1500 mg/L. Alta concentraci\u00f3n."
+    },
+    {
+        "id": 26,
+        "receta_id": 25,
+        "personas_responsables": [
+            "Victoria Est\u00e9vez"
+        ],
+        "fecha": "2024-10-20",
+        "costo_asociado": 2.6,
+        "resultado": "Sulfatos = 200 ppm. Aceptable."
+    },
+    {
+        "id": 27,
+        "receta_id": 26,
+        "personas_responsables": [
+            "Rodrigo Laguna"
+        ],
+        "fecha": "2024-10-25",
+        "costo_asociado": 2.0,
+        "resultado": "Acidez equivalente = 0.4N. Dentro del rango."
+    },
+    {
+        "id": 28,
+        "receta_id": 27,
+        "personas_responsables": [
+            "Camila Sosa"
+        ],
+        "fecha": "2024-10-30",
+        "costo_asociado": 2.1,
+        "resultado": "%\u00e1cido l\u00e1ctico = 0.15. Leche normal."
+    },
+    {
+        "id": 29,
+        "receta_id": 28,
+        "personas_responsables": [
+            "Valeria Pinto"
+        ],
+        "fecha": "2024-11-05",
+        "costo_asociado": 3.0,
+        "resultado": "CO2 liberado = 300 mL. Fermentaci\u00f3n exitosa."
+    },
+    {
+        "id": 30,
+        "receta_id": 29,
+        "personas_responsables": [
+            "Julio Fern\u00e1ndez"
+        ],
+        "fecha": "2024-11-10",
+        "costo_asociado": 2.5,
+        "resultado": "Absorbancia = 1.2. Complejo violeta evidente."
+    }
+]
